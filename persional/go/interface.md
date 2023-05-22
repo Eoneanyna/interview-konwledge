@@ -17,6 +17,7 @@
   - 比如 go 源码里的文件结构体（struct File）就不应该被复制，应该只有一份实体。
 
 # iface 和 eface的區別
+接口的定义：iface
 
 区别在于 iface 描述的接口包含方法，而 eface 则是不包含任何方法的空接口：interface{}。
 ![img.png](img/img.png)
